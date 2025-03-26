@@ -121,6 +121,10 @@ class Challenge
       }
     }
 
+    if(count($cases) !== (int) $lines[0]) {
+      throw new Exception("Invalid number of cases defined in line 1, expected: $lines[0]. current cases: " . count($cases));
+    }
+
     return $cases;
   }
 
