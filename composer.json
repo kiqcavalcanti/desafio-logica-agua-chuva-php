@@ -1,0 +1,14 @@
+{
+    "name": "kaique/desafio",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    }
+}
